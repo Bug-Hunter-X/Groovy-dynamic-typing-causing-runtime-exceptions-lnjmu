@@ -1,0 +1,3 @@
+# Groovy Dynamic Typing Runtime Exception
+
+This repository demonstrates a common issue in Groovy related to dynamic typing: unexpected runtime exceptions due to type mismatches.  The `bug.groovy` file shows a method that attempts to handle null input but fails to gracefully handle other unexpected data types. The `bugSolution.groovy` file provides a solution using type checking to prevent this issue.
